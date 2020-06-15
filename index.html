@@ -15,6 +15,11 @@
 
     <!-- CSS
     ================================================== -->
+    <!-- Boxicons CSS -->
+    <link href='https://cdn.jsdelivr.net/npm/boxicons@2.0.5/css/boxicons.min.css' rel='stylesheet'>
+    <!-- Bootstrap CSS
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+        -->
     <link rel="stylesheet" href="css/base.css">
     <link rel="stylesheet" href="css/main.css">
     <link rel="stylesheet" href="css/vendor.css">
@@ -28,7 +33,6 @@
     <link rel="apple-touch-icon" sizes="180x180" href="apple-touch-icon.png">
     <link rel="icon" type="image/png" sizes="32x32" href="images/title_logo.jpeg">
     <link rel="icon" type="image/png" sizes="16x16" href="images/title_logo.jpeg">
-    <link rel="manifest" href="site.webmanifest">
 
 </head>
 
@@ -60,12 +64,48 @@
     
             <nav class="row header-nav-wrap">
                 <ul class="header-nav">
-                    <li><a class="smoothscroll" href="#hero" title="Intro"><span style="color: rgb(255, 255, 255);text-shadow: 2px 2px black;">Home</span></a></li>
-                    <li><a class="smoothscroll" href="#about" title="About"><span style="color: rgb(252, 252, 252);text-shadow: 2px 2px black;">About</span></a></li>
-                    <li><a class="smoothscroll" href="#career" title="Career"><span style="color: rgb(255, 255, 255);text-shadow: 2px 2px black;">Career</span></a></li>
-                    <li><a class="smoothscroll" href="#services" title="Services"><span style="color: rgb(255, 255, 255);text-shadow: 2px 2px black;">Works</span></a></li>
-                    <li><a class="smoothscroll" href="#testimonials" title="articles"><span style="color: rgb(255, 255, 255);text-shadow: 2px 2px black;">Articles</span></a></li>
-                    <li><a href="mailto:pruthwirajnayak08@gmail.com" title="Contact us"><span style="color: rgb(255, 255, 255);text-shadow: 2px 2px black;">Say Hello</span></a></li>
+                    <li>
+                        <a class="smoothscroll" href="#hero" title="Intro">
+                            <span style="color: rgb(255, 255, 255);text-shadow: 2px 2px black; font-size: 17px;">
+                                <i class="bx bx-home bx-tada"></i> Home
+                            </span>
+                        </a>
+                    </li>
+                    <li>
+                        <a class="smoothscroll" href="#about" title="About">
+                            <span style="color: rgb(252, 252, 252);text-shadow: 2px 2px black; font-size: 17px;">
+                                <i class="bx bx-user bx-tada"></i> About
+                            </span>
+                        </a>
+                    </li>
+                    <li>
+                        <a class="smoothscroll" href="#career" title="Career">
+                            <span style="color: rgb(255, 255, 255);text-shadow: 2px 2px black; font-size: 17px;">
+                                <i class="bx bx-door-open bx-tada"></i> Career
+                            </span>
+                        </a>
+                    </li>
+                    <li>
+                        <a class="smoothscroll" href="#services" title="Services">
+                            <span style="color: rgb(255, 255, 255);text-shadow: 2px 2px black; font-size: 17px;">
+                                <i class="bx bx-book-reader bx-tada"></i> Works
+                            </span>
+                        </a>
+                    </li>
+                    <li>
+                        <a class="smoothscroll" href="#testimonials" title="articles">
+                            <span style="color: rgb(255, 255, 255);text-shadow: 2px 2px black; font-size: 17px;">
+                                <i class="bx bx-pen bx-tada"></i> Articles
+                            </span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="mailto:pruthwirajnayak08@gmail.com" title="Contact us">
+                            <span style="color: rgb(255, 255, 255);text-shadow: 2px 2px black; font-size: 17px;">
+                                <i class="bx bx-message-rounded-check bx-tada"></i> Say Hello
+                            </span>
+                        </a>
+                    </li>
                 </ul>
             </nav> <!-- end header-nav-wrap -->
 
@@ -247,6 +287,17 @@
 
             <div class="column large-6">
                 <ul class="services-list" data-aos="fade-up">
+                    <li class="services-list__item">
+                        <div class="services-list__item-header">
+                            <h5>Work Experience</h5>
+                        </div>
+                        <div class="services-list__item-body">
+                            <p>
+                                I have Experience of working in a startup named "HighQ". In my internship period I have designed this portfolio for a client.
+                                <a href="https://internship-pruthwi.netlify.app/" target="_blank">Website</a>
+                            </p>
+                        </div>
+                    </li> <!-- services-list__item -->
                     <li class="services-list__item">
                         <div class="services-list__item-header">
                             <h5>Web development</h5>
@@ -432,14 +483,16 @@
                 </div>
             </div>
 
-            <div class="column large-5">
+            <div class="column large-6">
                 <div class="footer-contacts">
                     <div class="footer-contact-block" data-aos="fade-up">
                         <h5 class="footer-contact-block__header">
                             Email
                         </h5>
                         <p class="footer-contact-block__content">
-                            <a href="mailto:pruthwirajnayak08@gmail.com">pruthwirajnayak08@gmail.com</a>
+                            <a href="mailto:pruthwirajnayak08@gmail.com">
+                                <i class="bx bx-envelope bx-tada"></i> pruthwirajnayak08@gmail.com 
+                            </a>
                         </p>
                     </div> <!-- end footer-contact-block -->
                     <div class="footer-contact-block" data-aos="fade-up">
@@ -450,16 +503,33 @@
 
                         </p>
                     </div> <!-- end footer-contact-block -->
-                    <br>
-                    <div class="footer-contact-block" data-aos="fade-up">
-                        <h5 class="footer-contact-block__header">
-                            Social
-                        </h5>
-                        <ul class="footer-contact-block__list">
-                            <li><a href="https://www.linkedin.com/in/pruthwiraj-nayak-726393169/" target="_blank">LinkedIn</a></li>
-                            <li><a href="https://www.instagram.com/mr_enigma77/" target="_blank">Instagram</a></li>
-                            <li><a href="https://www.facebook.com/profile.php?id=100007930998051" target="_blank">Facebook</a></li>
-                            <li><a href="https://github.com/Raj2367" target="_blank">Github</a></li>
+                    <h5 class="footer-contact-block__header">
+                        Social
+                    </h5>
+                    <div class="row footer-contact-block" data-aos="fade-up">
+                        <ul class="column large-6 footer-contact-block__list">
+                            <li>
+                                <a href="https://www.linkedin.com/in/pruthwiraj-nayak-726393169/" target="_blank">
+                                    <i class="bx bxl-linkedin"> LinkedIn</i>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="https://www.instagram.com/mr_enigma77/" target="_blank">
+                                    <i class="bx bxl-instagram"> Instagram</i>
+                                </a>
+                            </li>
+                        </ul>
+                        <ul class="column large-6 footer-contact-block__list">
+                            <li>
+                                <a href="https://www.facebook.com/profile.php?id=100007930998051" target="_blank">
+                                    <i class="bx bxl-facebook"> Facebook</i>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="https://github.com/Raj2367" target="_blank">
+                                    <i class="bx bxl-github"> Github</i>
+                                </a>
+                            </li>
                         </ul>
                     </div> <!-- end footer-contact-block -->
                 </div>
