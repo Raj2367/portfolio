@@ -1592,7 +1592,7 @@ input::-moz-focus-inner {
 .s-header.sticky {
   background-color: #050505;
   opacity: 0;
-  visibility: hidden;
+  /* visibility: hidden; */
   position: fixed;
   top: 0;
   left: 0;
@@ -2289,7 +2289,6 @@ html.no-csstransitions .hero-content {
  *
  * ------------------------------------------------------------------- */
 .s-about {
-  padding-bottom: 16rem;
   background-color: #ffffff;
   position: relative;
 }
@@ -2299,9 +2298,9 @@ html.no-csstransitions .hero-content {
 }
 
 .s-about__section--profile {
-  padding-top: 28rem;
+  padding-top: 15rem;
   padding-bottom: 4rem;
-  min-height: 108rem;
+  /* min-height: 108rem; */
   position: relative;
 }
 
@@ -2313,14 +2312,14 @@ html.no-csstransitions .hero-content {
   width: 24vw;
   position: absolute;
   top: 8rem;
-  left: calc(50% + 80px);
+  left: calc(50% + 250px);
 } 
 
 /* ------------------------------------------------------------------- 
  * ## career position
  * ------------------------------------------------------------------- */
 .work-positions {
-  margin-top: 2rem;
+  margin-top: -4rem;
 }
 
 .work-positions .column:nth-child(2n + 1) {
@@ -2333,7 +2332,6 @@ html.no-csstransitions .hero-content {
 
 .position {
   padding-top: 3.6rem;
-  padding-bottom: 3.2rem;
   border-top: 1px solid #b3c2c1;
 }
 
@@ -2407,7 +2405,7 @@ html.no-csstransitions .hero-content {
 
 @media screen and (max-width:800px) {
   .s-about__section--profile {
-    padding-top: 20rem;
+    padding-top: 15rem;
     padding-bottom: 0;
     min-height: 0;
   }
@@ -2444,7 +2442,7 @@ html.no-csstransitions .hero-content {
  *
  * ------------------------------------------------------------------- */
 .s-services {
-  padding-top: 24rem;
+  padding-top: 8rem;
   padding-bottom: 20rem;
   background-color: #1d1b37;
   position: relative;
@@ -2902,7 +2900,7 @@ html.no-csstransitions .hero-content {
  * ------------------------------------------------------------------- */
 .s-testimonials {
   padding-top: 14.4rem;
-  padding-bottom: 16rem;
+  /* padding-bottom: 16rem; */
   background-color: #ffffff;
 }
 
