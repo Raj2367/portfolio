@@ -1503,7 +1503,7 @@ input::-moz-focus-inner {
 
 @media screen and (max-width:800px) {
   .section-intro::before {
-    font-size: 24rem;
+    font-size: 11rem;
   }
 
   .right-vert-line {
@@ -1523,7 +1523,7 @@ input::-moz-focus-inner {
   }
 
   .section-intro::before {
-    font-size: 22rem;
+    font-size: 10rem;
   }
 
   .right-vert-line {
@@ -1546,7 +1546,7 @@ input::-moz-focus-inner {
   }
 
   .section-intro::before {
-    font-size: 20rem;
+    font-size: 9rem;
   }
 
 }
@@ -1557,7 +1557,7 @@ input::-moz-focus-inner {
   }
 
   .section-intro::before {
-    font-size: 18rem;
+    font-size: 9rem;
   }
 
 }
@@ -2605,7 +2605,7 @@ html.no-csstransitions .hero-content {
 
 @media screen and (max-width:800px) {
   .s-services {
-    padding-top: 20rem;
+    padding-top: 5rem;
   }
 
   .s-services__content .s-services__leftcol {
