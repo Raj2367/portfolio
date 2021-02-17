@@ -1,7 +1,4 @@
-/* ===================================================================
- * Ethos 1.0.0 - Main JS
- *
- * ------------------------------------------------------------------- */
+
 
 (function($) {
 
@@ -14,15 +11,11 @@
     const $WIN = $(window);
 
 
-    // Add the User Agent to the <html>
-    // will be used for IE10/IE11 detection (Mozilla/5.0 (compatible; MSIE 10.0; Windows NT 6.2; Trident/6.0; rv:11.0))
     const doc = document.documentElement;
     doc.setAttribute('data-useragent', navigator.userAgent);
 
 
 
-   /* preloader
-    * -------------------------------------------------- */
     const ssPreloader = function() {
 
         $("html").addClass('ss-preload');
@@ -47,8 +40,6 @@
 
 
 
-   /* pretty print
-    * -------------------------------------------------- */
     const ssPrettyPrint = function() {
         $('pre').addClass('prettyprint');
         $( document ).ready(function() {
@@ -58,8 +49,6 @@
 
 
 
-   /* move header
-    * -------------------------------------------------- */
     const ssMoveHeader = function () {
 
         const $hero = $('.s-hero'),
@@ -95,8 +84,6 @@
 
 
 
-   /* mobile menu
-    * ---------------------------------------------------- */ 
     const ssMobileMenu = function() {
 
         const $toggleButton = $('.header-menu-toggle');
@@ -130,8 +117,6 @@
     };
 
 
-   /* accordion
-    * ------------------------------------------------------ */
     const ssAccordion = function() {
 
         const $allItems = $('.services-list__item');
@@ -158,8 +143,6 @@
 
 
 
-   /* photoswipe
-    * ----------------------------------------------------- */
     const ssPhotoswipe = function() {
         const items = [],
             $pswp = $('.pswp')[0],
@@ -212,8 +195,6 @@
 
 
 
-   /* slick slider
-    * ------------------------------------------------------ */
     const ssSlickSlider = function() {
             
         $('.testimonial-slider').slick({
@@ -244,8 +225,6 @@
     };
 
 
-   /* Animate On Scroll
-    * ------------------------------------------------------ */
     const ssAOS = function() {
         
         AOS.init( {
@@ -261,8 +240,6 @@
 
 
 
-   /* alert boxes
-    * ------------------------------------------------------ */
     const ssAlertBoxes = function() {
 
         $('.alert-box').on('click', '.alert-box__close', function() {
@@ -293,8 +270,6 @@
     // };
 
 
-   /* back to top
-    * ------------------------------------------------------ */
     const ssBackToTop = function() {
         
         const pxShow = 800;
@@ -314,8 +289,6 @@
 
 
 
-   /* initialize
-    * ------------------------------------------------------ */
     (function ssInit() {
 
         ssPreloader();
